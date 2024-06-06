@@ -4,7 +4,7 @@
   "main": "login.js",
   "type": "module",
   "engines": {
-    "node": "20.12.0.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "node login.cjs",

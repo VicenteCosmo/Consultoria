@@ -1,16 +1,7 @@
 {
-    "version":2,
-    "builds":[
+    "rewrites": [
         {
-            "src":"./login.cjs",
-            "use": "@vercel/node"
-
+            "source": "/(.*)", "destination": "/"
         }
-    ],
-    "routes":[
-        {
-        "src": "/(.*)",
-        "dest": "/"
-        }
-    ]
-}
+     ]
+  }   
