@@ -91,7 +91,7 @@ body{
     text-align: center;
     margin-right: 50px;
     width: 70%;
-    height: 100px;
+    height: 150px;
     padding: 50px;
     margin-right: 20px;
     border-right: 0px solid darkblue;
@@ -105,9 +105,7 @@ body{
     color: #279EF4;
     
 }
-.card2 p{
-    margin-bottom: 15%;
-}
+
 /**/
    /*Form*/
    .box{
@@ -175,7 +173,7 @@ body{
     border-bottom: 0px solid #279EF4;
     margin-left: .5%;
     height: 600px;
-    width: 95%;
+    width: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;

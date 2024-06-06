@@ -89,6 +89,21 @@ border-bottom: none;
     .slider .span123{
         font-size: 75%;
     }
+    .animated-text span::after{
+        opacity: 1;
+        content: "";
+        border-left: 2px solid rgb(29, 13, 250);
+        position: absolute;
+        right: -1px;
+        animation: type 40s ease-in-out  infinite ;
+        background-color: #001f31;
+        background-color: #ffff;
+        height: 100%;
+        width: 0;
+       margin-top: 3.5%;
+        
+       
+    }
 
 
 /*tRABALHO cARD*/   
@@ -1058,8 +1073,6 @@ footer{
     background-color: #ffff;
     height: 100%;
     width: 0;
-   margin-top: 3.5%;
-    
    
 }
 
